@@ -1,0 +1,167 @@
+.App {
+  text-align: center;
+  background-color: #000;
+}
+
+#username{
+  margin: 50px 50px;
+
+  width: 80%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+  resize: vertical;
+}
+
+#user_input{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#password_input{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#password{
+  margin: 50px 50px;
+
+  width: 80%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+  resize: vertical;
+  
+}
+
+#login_name{
+  margin: 50px 50px;
+  color: #fff;
+}
+
+#username_text{
+  
+  color: #fff;
+}
+
+#password_text{
+  color: #fff;
+}
+
+.main {
+  background-color: #000;
+
+}
+
+#signup_btn{
+  margin: 0px 50px;
+  background-color: #f1d900;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#signin_btn{
+  margin: 0px 10px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#signout_btn{
+  margin: 0px 50px;
+  background-color: #ff4b4b;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.imgfields{
+  margin: 50px 50px;
+
+  background-color: #918f8f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#uploadfile_btn{
+  background-color: #acd41c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+.profileimg{
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-width: 5px;
+  border-color: white;
+  border-style: outset;
+  margin: 0px 20px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
